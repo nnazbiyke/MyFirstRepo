@@ -37,7 +37,8 @@ public class Demo {
         return faker.animal().name();
     }
 
-    public static String generateFakeProgramingName(){
+    public static String generateFakeProgramingName()
+    {
         return faker.programmingLanguage().name();
     }
 
